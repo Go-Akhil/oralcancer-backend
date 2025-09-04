@@ -3,6 +3,5 @@ services:
     name: oralcancer-backend
     env: java
     plan: free
-    jdkVersion: 17
     buildCommand: "./mvnw clean package -DskipTests"
     startCommand: "java -jar target/*.jar"
